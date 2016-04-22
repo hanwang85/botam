@@ -29,7 +29,7 @@ module.exports = new Script({
         receive: (bot, message) => {
             return bot.getProp('name')
                 .then((name) => bot.say(`Sorry ${name}, my creator didn't ` +
-                        'teach me how to do anything else! But please wait, my creator RiverWang may get back to you just in 0.0001 second.'))
+                        'teach me how to do anything else! But please wait, my creator RiverWang may get back to you just in 0.0001 second. He is teaching me now so I can be more smater next time.'))
                 .then(() => 'finish');
         }
     }
